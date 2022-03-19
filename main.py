@@ -1,6 +1,6 @@
 from geopy.geocoders import Nominatim
 
-# generates lat and long for using an address input
+# generates lat and long using an address input
 print("GEOLOCATING")
 geolocator = Nominatim(user_agent="Vade_test_question")
 location = geolocator.geocode("1128 Berwyn Way NC")
